@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/other_icon.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/mipmap-xxxhdpi/other_icon.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/js_icon.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/mipmap-xxxhdpi/js_icon.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/android_icon.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/mipmap-xxxhdpi/android_icon.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ios_icon.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/mipmap-xxxhdpi/ios_icon.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

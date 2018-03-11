@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.trello.rxlifecycle2/rxlifecycle-android/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a1589af4546e0299f3e0c77de3215ecfd3a0e19d">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.trello.rxlifecycle2-rxlifecycle-android-2.0.1_24fe7a8d414b5a75078a7fa45255ddfce50e8796.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/glide-3.7.0_9170cd1da7850fb89d85be95edd78561b80b52b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_39d24941c3606f205def781451677a27fc5556ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_b833be15e68a8a4fab88f6c6b37ed1dcded76c46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_aa559623b806eb1fd50bd15b01052d8c99d7f38e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_597639f0c7a40836753a4d3e5224ecdf30417687.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/library-2.4.0_b2a171a92b02a6de839eeef8fa9f530f82fc3523.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_2b887f991393468b1b40f2abe79df06ec1348ac0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.3.0_877b717916e6764b48971aac543c537dfce3d84b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.github.limedroid/mvp/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a636a5b99b32021527584b180728421be7fc0894">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.github.limedroid-mvp-unspecified_b8c51bf849038d0910c50d80905b69e4de589bf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.3.0_de1238a6413367ce54b69faca3ad142966b5aa22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_1b3f32b845414945ebca369bd1843114ad4810a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f7be08ec23c21485b9b5a1cf1654c2ec8c58168d">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/jsr305-3.0.1_4338f067d367afd8c72ee7f4d389ab1babd1b5c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_f1e9b773805c61c87f061f001e0f6152e27b58f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_4df0490665aff1ad5b4fa068a5e389df4c77eebe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_aa4869b906733f0b76dc462c52b6764493778262.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f34b3abccadc156cd3a75fde0afc55754e383986">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.wang.avi-library-1.0.2_12ea6467d04d138e2c86f0131c3f9a217a7ce726.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_c4fb1289407d9ecc09aa1a104a0e730a77729a67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.2.0/3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c/adapter-rxjava2-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/adapter-rxjava2-2.2.0_6e552a6bb14dcb52c1b1ebc7e3fb6b37311eecfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/io.reactivex.rxjava2-rxandroid-2.0.1_05dd4d4c9848747b3766398e63a645e06c34c6e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a09926806199499a20b2f5168779499abfa33342">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/converter-gson-2.2.0_8593bebf143cd4642bf5d628a70e03756a0446ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_b1ead3c278219b8a4f5e676d0a6215e6134b143c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_d5b4c4f75a9cd88fad3b3afbfff4e7f12d5c8774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_852c8a22b8f4ca758e34d0b1c131df756a0503d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_e26ca9c82926cf8468ee870fc3d02086825021e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_166a36e9c0557cb1cbe2bf43f9fcd9dd8d9fbfba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions2/rxpermissions/0.9.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6f8bee169957506578df40084c46dcce783c70fe">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.tbruyelle.rxpermissions2-rxpermissions-0.9.3_52eb47c3cefda5ef9d60950880b94952e223bfc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/gson-2.7_03edd3cf70b272a0524702318b6506db80746bbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.trello.rxlifecycle2/rxlifecycle-components/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e20f3c5e0e1bdbcf0edad8b16771497b36f68875">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.trello.rxlifecycle2-rxlifecycle-components-2.0.1_f00a61a2c417b40a616ebe228059e031261f9382.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.github.limedroid/XStateController/v1.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f9d6c700c35a4ecc8acdbb95592033ed35ebf3f2">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.github.limedroid-XStateController-v1.1.1_5c1279dc843dec6c04394ce806a7c2315c2cdeb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/retrofit-2.2.0_a8daad375cf907cd2a68685adbcdb0090adc7f7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_eb7ea0b8d53bb0bc920a22bce90d8537745a1234.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/okio-1.11.0_1ae52ea70510c4107390e07ba636c6024bb08306.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_e5ebf5392c125931933584958fd2fc8df9138986.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/rxjava-2.0.1_f6dddee9f055bf3c5747c59adec5e64e2475b315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_dac0cbec32871bba8da50e147b01778337af2acc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_227b4570e9392aa10ca1802672d4d18a7ad0fb21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle2/rxlifecycle/2.0.1/6a8613d3be37408630effe790c4945543633288/rxlifecycle-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="06a8613d3be37408630effe790c4945543633288">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/rxlifecycle-2.0.1_19f6ab2d8237fd05f5a3a2bfa793a971e1d507a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.github.limedroid/ARecyclerView/v1.1.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="460169e4d57d560abe5bc892230421c85fb23edf">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.github.limedroid-ARecyclerView-v1.1.5_81651d5fc64bd496125b700b6fdf80b2bd7427ee.jar" />
+    </item>
+
+</items>
