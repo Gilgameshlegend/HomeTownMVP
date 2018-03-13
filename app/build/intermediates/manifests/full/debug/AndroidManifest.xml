@@ -28,8 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cn.droidlover.xdroidmvp.demo.ui.AboutActivity" />
-        <activity android:name="cn.droidlover.xdroidmvp.demo.ui.WebActivity" />
+
+        <!-- <activity android:name=".ui.AboutActivity" /> -->
+        <!-- <activity android:name=".ui.WebActivity" /> -->
     </application>
 
 </manifest>

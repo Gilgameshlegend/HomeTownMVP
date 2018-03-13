@@ -15,9 +15,9 @@ import java.lang.Override;
 public class AboutActivity_ViewBinding<T extends AboutActivity> implements Unbinder {
   protected T target;
 
-  private View view2131493005;
+  private View view2131493013;
 
-  private View view2131493004;
+  private View view2131493012;
 
   @UiThread
   public AboutActivity_ViewBinding(final T target, View source) {
@@ -26,7 +26,7 @@ public class AboutActivity_ViewBinding<T extends AboutActivity> implements Unbin
     View view;
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.tv_githubMvc, "method 'clickEvent'");
-    view2131493005 = view;
+    view2131493013 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -34,7 +34,7 @@ public class AboutActivity_ViewBinding<T extends AboutActivity> implements Unbin
       }
     });
     view = Utils.findRequiredView(source, R.id.tv_githubMvp, "method 'clickEvent'");
-    view2131493004 = view;
+    view2131493012 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -51,10 +51,10 @@ public class AboutActivity_ViewBinding<T extends AboutActivity> implements Unbin
 
     target.toolbar = null;
 
-    view2131493005.setOnClickListener(null);
-    view2131493005 = null;
-    view2131493004.setOnClickListener(null);
-    view2131493004 = null;
+    view2131493013.setOnClickListener(null);
+    view2131493013 = null;
+    view2131493012.setOnClickListener(null);
+    view2131493012 = null;
 
     this.target = null;
   }

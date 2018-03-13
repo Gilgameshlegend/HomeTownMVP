@@ -42,6 +42,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/yarong/
 MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:25.0.0] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions2/rxpermissions/0.9.3/AndroidManifest.xml:11:5-20
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/2.0.4/AndroidManifest.xml:11:5-47
 	android:label
 		ADDED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml:13:9-41
 	android:supportsRtl
@@ -70,14 +71,6 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml:22:27-74
-activity#cn.droidlover.xdroidmvp.demo.ui.AboutActivity
-ADDED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml:27:9-54
-	android:name
-		ADDED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml:27:19-51
-activity#cn.droidlover.xdroidmvp.demo.ui.WebActivity
-ADDED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml:28:9-52
-	android:name
-		ADDED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml:28:19-49
 uses-sdk
 INJECTED from /Users/yarong/Desktop/XDroidMvp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.wang.avi:library:1.0.2] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.2/AndroidManifest.xml:7:5-9:41
@@ -100,6 +93,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/yarong/
 MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-compat:25.0.0] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/AndroidManifest.xml:21:5-23:58
 MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.3] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions2/rxpermissions/0.9.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/2.0.4/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.0.0] /Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

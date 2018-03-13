@@ -27,4 +27,6 @@ dependencies {
     apt rootProject.ext.dependencies["butterknife-apt"]
     compile rootProject.ext.dependencies["avi-loading"]
     compile project(":mvp")
+    //add
+    compile 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
 }

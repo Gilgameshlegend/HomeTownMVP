@@ -44,6 +44,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/fixed_bottom_navigation_item.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/2.0.4/res/layout/fixed_bottom_navigation_item.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
@@ -64,12 +68,20 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_custom_big.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/find_fragment.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/find_fragment.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/box_fragment.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/box_fragment.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
@@ -82,6 +94,10 @@
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/room_fragmet.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/room_fragmet.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/adapter_ganhuo.xml",
@@ -136,6 +152,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/my_fragment.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/my_fragment.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_big_media_narrow.xml"
     },
@@ -152,6 +172,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.github.limedroid/ARecyclerView/v1.1.5/res/layout/x_view_recycler_content_layout.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/activity_main_1.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/activity_main_1.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_search_view.xml"
     },
@@ -162,6 +186,10 @@
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/shifting_bottom_navigation_item.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/2.0.4/res/layout/shifting_bottom_navigation_item.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
@@ -224,6 +252,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/adapter_home.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/bottom_navigater_bar.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/bottom_navigater_bar.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
@@ -246,6 +278,10 @@
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/bottom_navigation_bar_container.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/2.0.4/res/layout/bottom_navigation_bar_container.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",

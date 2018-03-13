@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/2.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e1b25ed27f6a2cfd9d90345e66b89bfb6d5a102d">
+        <dex dex="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/pre-dexed/debug/com.ashokvarma.android-bottom-navigation-bar-2.0.4_5d73073b175e3fad24f132ddfb90b787be7b9cd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
