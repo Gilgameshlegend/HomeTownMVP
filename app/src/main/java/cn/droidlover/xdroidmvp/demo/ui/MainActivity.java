@@ -106,10 +106,13 @@ public class MainActivity extends XActivity {
     private void initView() {
         txt_main = (TextView) findViewById(R.id.txt_main);
         bottom_bar = (BottomNavigationBar) findViewById(R.id.bottom_bar);
+        bottom_bar.setMode(BottomNavigationBar.MODE_FIXED);
         bottom_bar.addItem(new BottomNavigationItem(R.drawable.ic_find, getString(R.string.find)))
                 .addItem(new BottomNavigationItem(R.drawable.ic_room, getString(R.string.room)))
                 .addItem(new BottomNavigationItem(R.drawable.ic_box, getString(R.string.box)))
                 .addItem(new BottomNavigationItem(R.drawable.ic_mine, getString(R.string.mine)))
+                .setActiveColor(R.color.navigationItem_active)
+                .setInActiveColor(R.color.navigationItem_inActive)
                 .initialise();
         txt_main.setText(getString(R.string.find));
     }
