@@ -8,6 +8,6 @@
     <color name="text_secondary">#87000000</color>
     <color name="text_disabled">#38000000</color>
     
-    <color name="navigationItem_active">#098049</color>
+    <color name="navigationItem_active">#9EC339</color>
     <color name="navigationItem_inActive">#B9BABB</color>
 </resources>

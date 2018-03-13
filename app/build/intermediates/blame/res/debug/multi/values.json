@@ -750,14 +750,7 @@
                     "endOffset": 4158
                 },
                 "from": {
-                    "file": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/values/colors.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 409,
-                        "endColumn": 57,
-                        "endOffset": 462
-                    }
+                    "file": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/values/colors.xml"
                 }
             },
             {

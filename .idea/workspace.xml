@@ -15,49 +15,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/ui/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/ui/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xdroidmvp/demo/ui/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xrecyclerview/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/cn/droidlover/xrecyclerview/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ashokvarma/bottomnavigation/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/ashokvarma/bottomnavigation/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/trello/rxlifecycle2/components/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/trello/rxlifecycle2/components/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/wang/avi/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/wang/avi/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/3oGbjtKwqEQzOKWUIsX+9bDbzXM=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/3oGbjtKwqEQzOKWUIsX+9bDbzXM=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_0a6cd6ab3bc7f3a671dd44d08d2ae876fb074090.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_0a6cd6ab3bc7f3a671dd44d08d2ae876fb074090.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/droidlover/xdroidmvp/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/droidlover/xdroidmvp/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/droidlover/xdroidmvp/demo/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/droidlover/xdroidmvp/demo/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/droidlover/xrecyclerview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/cn/droidlover/xrecyclerview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ashokvarma/bottomnavigation/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/ashokvarma/bottomnavigation/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/trello/rxlifecycle2/components/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/trello/rxlifecycle2/components/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/wang/avi/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/wang/avi/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/bottom_navigater_bar.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/bottom_navigater_bar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/droidlover/xdroidmvp/demo/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/droidlover/xdroidmvp/demo/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_navigater_bar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_navigater_bar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/droidlover/xdroidmvp/demo/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="114" column="66" lean-forward="false" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
+            <state relative-caret-position="1170">
+              <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1520943569315" expanded="true" signature="1918:1923" ph="//..." />
@@ -96,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="150">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -3712,8 +3679,8 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_toolbar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/bottom_navigater_bar.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/droidlover/xdroidmvp/demo/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       </list>
     </option>
   </component>
@@ -4128,7 +4095,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520943801711" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520947949690" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -4175,7 +4142,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520943801711" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520947949690" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -4336,7 +4303,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520943801716" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520947949691" />
       </method>
     </configuration>
     <list size="1">
@@ -4790,6 +4757,17 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/droidlover/xdroidmvp/demo/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1520943569315" expanded="true" signature="1918:1923" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_navigater_bar.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -4803,20 +4781,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="150">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/droidlover/xdroidmvp/demo/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="114" column="66" lean-forward="false" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1520943569315" expanded="true" signature="1918:1923" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
