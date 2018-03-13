@@ -39,7 +39,6 @@ public class MainActivity extends XActivity {
 
     @Override
     public void initData(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.bottom_navigater_bar);
         initView();
         initEvent();
