@@ -3,11 +3,16 @@
     <color name="colorPrimary">#0ba25d</color>
     <color name="colorPrimaryDark">#098049</color>
     <color name="colorAccent">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
 
     <color name="text_primary">#000000</color>
     <color name="text_secondary">#87000000</color>
     <color name="text_disabled">#38000000</color>
-    
+
+    <color name="theme_green">#9EC339</color>
+    <color name="theme_gray">#C9C9C9</color>
+    <color name="theme_brown">#554B41</color>
+
     <color name="navigationItem_active">#9EC339</color>
     <color name="navigationItem_inActive">#B9BABB</color>
 </resources>

@@ -60,6 +60,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/fragment_recommend.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/fragment_recommend.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_screen_toolbar.xml"
     },
@@ -256,12 +260,20 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/bottom_navigater_bar.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/activity_main1.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/activity_main1.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/fragment_search.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/layout/fragment_search.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",

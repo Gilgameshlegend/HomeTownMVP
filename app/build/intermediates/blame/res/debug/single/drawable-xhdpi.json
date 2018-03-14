@@ -16,6 +16,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_box.png"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_location.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_location.png"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_save_white_24dp.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_save_white_24dp.png"
     },

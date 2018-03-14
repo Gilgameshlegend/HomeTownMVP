@@ -27,10 +27,10 @@ public final class R {
 		public static final int x_loadingLayoutId = 0x7f01013e;
 	}
 	public static final class color {
-		public static final int x_blue = 0x7f0b004d;
-		public static final int x_green = 0x7f0b004e;
-		public static final int x_red = 0x7f0b004f;
-		public static final int x_yellow = 0x7f0b0050;
+		public static final int x_blue = 0x7f0b0051;
+		public static final int x_green = 0x7f0b0052;
+		public static final int x_red = 0x7f0b0053;
+		public static final int x_yellow = 0x7f0b0054;
 	}
 	public static final class dimen {
 		public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f070093;
@@ -43,14 +43,14 @@ public final class R {
 		public static final int item_touch_helper_previous_elevation = 0x7f0c0005;
 		public static final int outsideInset = 0x7f0c0061;
 		public static final int outsideOverlay = 0x7f0c0062;
-		public static final int progressBar = 0x7f0c00d7;
-		public static final int recyclerView = 0x7f0c00d8;
-		public static final int swipeRefreshLayout = 0x7f0c009b;
-		public static final int tv_msg = 0x7f0c00d6;
+		public static final int progressBar = 0x7f0c00df;
+		public static final int recyclerView = 0x7f0c00e0;
+		public static final int swipeRefreshLayout = 0x7f0c009d;
+		public static final int tv_msg = 0x7f0c00de;
 	}
 	public static final class layout {
-		public static final int x_view_footer_load_more_simple = 0x7f040047;
-		public static final int x_view_recycler_content_layout = 0x7f040048;
+		public static final int x_view_footer_load_more_simple = 0x7f04004a;
+		public static final int x_view_recycler_content_layout = 0x7f04004b;
 	}
 	public static final class string {
 		public static final int app_name = 0x7f060021;

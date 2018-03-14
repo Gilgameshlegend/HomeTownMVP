@@ -1,22 +1,27 @@
 package cn.droidlover.xdroidmvp.demo.ui;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.os.Bundle;
 //import android.support.design.widget.TabLayout;
 //import android.support.v4.app.Fragment;
 //import android.support.v4.view.ViewPager;
 //import android.support.v7.widget.Toolbar;
 //import android.view.MenuItem;
-//
-//import java.util.ArrayList;
-//import java.util.List;
+//git
+import java.util.ArrayList;
+import java.util.List;
 //
 //import butterknife.BindView;
 //import cn.droidlover.xdroidmvp.base.XFragmentAdapter;
 import cn.droidlover.xdroidmvp.demo.R;
 import cn.droidlover.xdroidmvp.mvp.XActivity;
+import cn.droidlover.xdroidmvp.mvp.XFragment;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
+
+import android.support.v4.app.FragmentTransaction;
 import android.widget.TextView;
 /**
  * Created by wanglei on 2016/12/22.
@@ -34,20 +39,21 @@ public class MainActivity extends XActivity {
 //    String[] titles = {"首页", "干货", "妹子"};
 //
 //    XFragmentAdapter adapter;
-    private TextView txt_main;
+    private FindFragment mfragment_find;
+    private android.app.FragmentTransaction transaction;
     private BottomNavigationBar bottom_bar;
 
     @Override
     public void initData(Bundle savedInstanceState) {
-        setContentView(R.layout.bottom_navigater_bar);
+        setContentView(R.layout.activity_main);
         initView();
         initEvent();
     }
 
     @Override
     public int getLayoutId() {
-//        return R.layout.activity_main;
-        return R.layout.bottom_navigater_bar;
+//        return R.layout.activity_main1;
+        return R.layout.activity_main;
     }
 
 //    @Override
@@ -77,16 +83,16 @@ public class MainActivity extends XActivity {
             public void onTabSelected(int position) {
                 switch (position) {
                     case 0:
-                        txt_main.setText(getString(R.string.find));
+                        setDefaultFragment();
                         break;
                     case 1:
-                        txt_main.setText(getString(R.string.room));
+
                         break;
                     case 2:
-                        txt_main.setText(getString(R.string.box));
+
                         break;
                     case 3:
-                        txt_main.setText(getString(R.string.mine));
+
                         break;
                 }
             }
@@ -104,7 +110,7 @@ public class MainActivity extends XActivity {
     }
 
     private void initView() {
-        txt_main = (TextView) findViewById(R.id.txt_main);
+        //初始化导航栏
         bottom_bar = (BottomNavigationBar) findViewById(R.id.bottom_bar);
         bottom_bar.setMode(BottomNavigationBar.MODE_FIXED);
         bottom_bar.addItem(new BottomNavigationItem(R.drawable.ic_find, getString(R.string.find)))
@@ -114,6 +120,17 @@ public class MainActivity extends XActivity {
                 .setActiveColor(R.color.navigationItem_active)
                 .setInActiveColor(R.color.navigationItem_inActive)
                 .initialise();
-        txt_main.setText(getString(R.string.find));
+        //默认显示发现页面
+        setDefaultFragment();
+
+
+    }
+
+    private void setDefaultFragment() {
+        FragmentManager fm = getFragmentManager();
+        transaction = fm.beginTransaction();
+        mfragment_find = FindFragment.newInstance();
+        transaction.add(R.id.id_fragment_search, mfragment_find);
+        transaction.commit();
     }
 }

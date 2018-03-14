@@ -72,6 +72,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable/shape_btn.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable/shape_btn.xml"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
@@ -82,6 +86,10 @@
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable/shape_white_rectangle.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable/shape_white_rectangle.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",

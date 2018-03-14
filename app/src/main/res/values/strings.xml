@@ -4,4 +4,13 @@
     <string name="room">房间</string>
     <string name="box">收件箱</string>
     <string name="mine">我的</string>
+
+    <string name="search_filter">筛选</string>
+    <string name="search_member_cnt">人数</string>
+    <string name="search_trip_date">日期</string>
+
+    <string name="recmd_partner_cn">探索旅伴</string>
+    <string name="recmd_partner_en">Found My Partner</string>
+    <string name="recmd_trip_cn">探索旅程</string>
+    <string name="recmd_trip_en">Found My Trip</string>
 </resources>
