@@ -1,5 +1,6 @@
 package cn.droidlover.xdroidmvp.demo.ui;
 
+import butterknife.BindView;
 import cn.droidlover.xdroidmvp.demo.R;
 import cn.droidlover.xdroidmvp.mvp.XFragment;
 
@@ -32,10 +33,9 @@ public class FindFragment extends XFragment {
 
     @Override
     public void initData(Bundle savedInstanceState) {
-        View contentView = getLayoutInflater(savedInstanceState).inflate(R.layout.activity_main, null);
-        btn_filter = (Button) contentView.findViewById(R.id.btn_filter);
-        btn_member_cnt = (Button) contentView.findViewById(R.id.btn_member_cnt);
-        btn_trip_date = (Button) contentView.findViewById(R.id.btn_trip_date);
+        btn_filter = (Button) getView().findViewById(R.id.btn_filter);
+        btn_member_cnt = (Button) getView().findViewById(R.id.btn_member_cnt);
+        btn_trip_date = (Button) getView().findViewById(R.id.btn_trip_date);
         btn_filter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

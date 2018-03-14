@@ -1,7 +1,5 @@
 package cn.droidlover.xdroidmvp.demo.ui;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.os.Bundle;
 //import android.support.design.widget.TabLayout;
 //import android.support.v4.app.Fragment;
@@ -21,6 +19,8 @@ import cn.droidlover.xdroidmvp.mvp.XFragment;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.widget.TextView;
 /**
@@ -40,7 +40,7 @@ public class MainActivity extends XActivity {
 //
 //    XFragmentAdapter adapter;
     private FindFragment mfragment_find;
-    private android.app.FragmentTransaction transaction;
+    private FragmentTransaction transaction;
     private BottomNavigationBar bottom_bar;
 
     @Override
@@ -127,7 +127,7 @@ public class MainActivity extends XActivity {
     }
 
     private void setDefaultFragment() {
-        FragmentManager fm = getFragmentManager();
+        FragmentManager fm = getSupportFragmentManager();
         transaction = fm.beginTransaction();
         mfragment_find = FindFragment.newInstance();
         transaction.add(R.id.id_fragment_search, mfragment_find);
