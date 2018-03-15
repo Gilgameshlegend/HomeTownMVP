@@ -40,8 +40,9 @@ public class MainActivity extends XActivity {
 //
 //    XFragmentAdapter adapter;
     private FindFragment mfragment_find;
-    private FragmentTransaction transaction;
     private BottomNavigationBar bottom_bar;
+    private FragmentTransaction transaction;
+
 
     @Override
     public void initData(Bundle savedInstanceState) {
@@ -124,13 +125,15 @@ public class MainActivity extends XActivity {
         setDefaultFragment();
 
 
+
     }
 
     private void setDefaultFragment() {
         FragmentManager fm = getSupportFragmentManager();
         transaction = fm.beginTransaction();
         mfragment_find = FindFragment.newInstance();
-        transaction.add(R.id.id_fragment_search, mfragment_find);
+        transaction.add(R.id.id_fragment_find, mfragment_find);
         transaction.commit();
     }
+
 }

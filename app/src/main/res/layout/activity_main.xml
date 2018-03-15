@@ -7,18 +7,11 @@
 
 
     <FrameLayout
-        android:id="@+id/id_fragment_search"
+        android:id="@+id/id_fragment_find"
         android:name="cn.droidlover.xdroidmvp.demo.ui.FindFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!--<TextView-->
-        <!--android:id="@+id/txt_main"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="40dp"-->
-        <!--android:gravity="center"-->
-        <!--android:text="Hello World!"-->
-        <!--android:textSize="20sp" />-->
 
 
     <com.ashokvarma.bottomnavigation.BottomNavigationBar

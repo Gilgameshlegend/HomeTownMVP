@@ -5,6 +5,6 @@
     <solid android:color="@color/colorWhite" />
     <stroke
         android:width="1dip"
-        android:color="@color/text_secondary" />
+        android:color="@color/text_disabled" />
     <corners android:radius="4dp" />
 </shape>

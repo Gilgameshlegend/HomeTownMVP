@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_partner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="5dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <cn.droidlover.xdroidmvp.demo.ui.CustomShadowView
+        android:id="@+id/cv_partner_image"
+        android:background="@drawable/img_partner_1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="image_partner"/>
+
+    <TextView
+        android:id="@+id/tv_partner_name"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="18sp"
+        android:text="name"/>
+
+</LinearLayout>

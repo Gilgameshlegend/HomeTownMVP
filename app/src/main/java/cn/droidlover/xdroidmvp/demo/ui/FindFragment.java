@@ -5,6 +5,8 @@ import cn.droidlover.xdroidmvp.demo.R;
 import cn.droidlover.xdroidmvp.mvp.XFragment;
 
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,11 +22,10 @@ import android.widget.Toast;
 
 public class FindFragment extends XFragment {
 
-    //    private TextView loction_text;
-//    private EditText search_content;
-    private Button btn_filter;
-    private Button btn_member_cnt;
-    private Button btn_trip_date;
+    private SearchFragment msearchFragment;
+    private PartnerFragment mpartnerFragment;
+    private FragmentTransaction transaction_parent;
+    private FragmentTransaction transaction_child;
 
     public static FindFragment newInstance() {
         return new FindFragment();
@@ -33,40 +34,13 @@ public class FindFragment extends XFragment {
 
     @Override
     public void initData(Bundle savedInstanceState) {
-        btn_filter = (Button) getView().findViewById(R.id.btn_filter);
-        btn_member_cnt = (Button) getView().findViewById(R.id.btn_member_cnt);
-        btn_trip_date = (Button) getView().findViewById(R.id.btn_trip_date);
-        btn_filter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(),
-                        "将进入筛选页面",
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
 
-        btn_member_cnt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(),
-                        "将进入人数页面",
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        btn_trip_date.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(),
-                        "将进入日期页面",
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
+        initView();
     }
 
     @Override
     public int getLayoutId() {
-        return R.layout.fragment_search;
+        return R.layout.fragment_find;
     }
 
 
@@ -75,5 +49,14 @@ public class FindFragment extends XFragment {
         return null;
     }
 
+    private void initView() {
+        FragmentManager fm = getChildFragmentManager();
+        transaction_child = fm.beginTransaction();
+        msearchFragment = SearchFragment.newInstance();
+        mpartnerFragment = PartnerFragment.newInstance();
+        transaction_child.add(R.id.id_child_fragment_search, msearchFragment);
+        transaction_child.add(R.id.id_child_fragment_recmd_parter, mpartnerFragment);
+        transaction_child.commit();
+    }
 
 }
