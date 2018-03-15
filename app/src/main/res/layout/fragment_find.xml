@@ -9,8 +9,8 @@
         android:layout_height="match_parent" />
 
     <FrameLayout
-        android:id="@+id/id_child_fragment_recmd_parter"
-        android:name="cn.droidlover.xdroidmvp.demo.ui.ParterFragment"
+        android:id="@+id/id_child_fragment_recmd_partner"
+        android:name="cn.droidlover.xdroidmvp.demo.ui.PartnerFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

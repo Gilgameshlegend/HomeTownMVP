@@ -1,8 +1,12 @@
 package cn.droidlover.xdroidmvp.demo.ui;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import cn.droidlover.xdroidmvp.demo.R;
@@ -28,7 +32,13 @@ public class PartnerFragment extends XFragment {
     public void initData(Bundle savedInstanceState) {
 
     }
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_recommend_partner, container, false);
 
+
+        return v;
+    }
 //    @Override
 //    public SimpleRecAdapter getAdapter() {
 //        if (adapter == null) {
