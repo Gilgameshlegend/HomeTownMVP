@@ -29,4 +29,5 @@ dependencies {
     compile project(":mvp")
     //add
     compile 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
+    compile 'com.makeramen:roundedimageview:2.2.1'
 }

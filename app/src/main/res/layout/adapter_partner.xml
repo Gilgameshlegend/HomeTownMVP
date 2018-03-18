@@ -7,12 +7,13 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <cn.droidlover.xdroidmvp.demo.ui.CustomShadowView
-        android:id="@+id/cv_partner_image"
-        android:background="@drawable/img_partner_1"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:text="image_partner"/>
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_partner_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_partner_1"
+        app:riv_oval="true" />
 
     <TextView
         android:id="@+id/tv_partner_name"
@@ -21,6 +22,6 @@
         android:layout_height="wrap_content"
         android:textColor="@color/text_secondary"
         android:textSize="18sp"
-        android:text="name"/>
+        android:text="James"/>
 
 </LinearLayout>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <FrameLayout
-        android:id="@+id/id_child_fragment_search"
-        android:name="cn.droidlover.xdroidmvp.demo.ui.SearchFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <FrameLayout
-        android:id="@+id/id_child_fragment_recmd_partner"
-        android:name="cn.droidlover.xdroidmvp.demo.ui.PartnerFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <include
+        android:id="@+id/fragment_search"
+        layout="@layout/fragment_search" />
+
+    <include
+        android:id="@+id/fragment_recommend_partner"
+        layout="@layout/fragment_recommend_partner" />
+
+    <include
+        android:id="@+id/fragment_recommend_trip"
+        layout="@layout/fragment_recommend_trip" />
 
 </LinearLayout>

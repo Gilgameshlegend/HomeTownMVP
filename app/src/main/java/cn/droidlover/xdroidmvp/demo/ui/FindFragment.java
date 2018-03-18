@@ -2,6 +2,7 @@ package cn.droidlover.xdroidmvp.demo.ui;
 
 import butterknife.BindView;
 import cn.droidlover.xdroidmvp.demo.R;
+import cn.droidlover.xdroidmvp.demo.adapter.PartnerAdapter;
 import cn.droidlover.xdroidmvp.mvp.XFragment;
 
 import android.os.Bundle;
@@ -17,20 +18,20 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 /**
  * Created by yarong on 2018/3/14.
  */
 
 public class FindFragment extends XFragment {
+//    private TextView loction_text;
+//    private EditText search_content;
+    private Button btn_filter;
+    private Button btn_member_cnt;
+    private Button btn_trip_date;
+//    private FragmentTransaction transaction;
 
-    private SearchFragment msearchFragment;
-    private PartnerFragment mpartnerFragment;
-    private FragmentTransaction transaction_parent;
-    private FragmentTransaction transaction_child;
+//    PartnerAdapter adapter;
 
-    private FrameLayout fl_search;
-    private FrameLayout fl_partner;
 
     public static FindFragment newInstance() {
         return new FindFragment();
@@ -39,18 +40,11 @@ public class FindFragment extends XFragment {
 
     @Override
     public void initData(Bundle savedInstanceState) {
-
         initView();
+        initEvent();
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_find, container, false);
-        fl_search = (FrameLayout)v.findViewById(R.id.id_child_fragment_search);
-        fl_partner = (FrameLayout)v.findViewById(R.id.id_child_fragment_recmd_partner);
 
-        return v;
-    }
     @Override
     public int getLayoutId() {
         return R.layout.fragment_find;
@@ -63,13 +57,41 @@ public class FindFragment extends XFragment {
     }
 
     private void initView() {
-        FragmentManager fm = getChildFragmentManager();
-        transaction_child = fm.beginTransaction();
-        msearchFragment = SearchFragment.newInstance();
-        mpartnerFragment = PartnerFragment.newInstance();
-        transaction_child.add(R.id.id_child_fragment_search, msearchFragment);
-        transaction_child.add(R.id.id_child_fragment_recmd_partner, mpartnerFragment);
-        transaction_child.commit();
+        //搜索
+        btn_filter = (Button) getView().findViewById(R.id.btn_filter);
+        btn_member_cnt = (Button) getView().findViewById(R.id.btn_member_cnt);
+        btn_trip_date = (Button) getView().findViewById(R.id.btn_trip_date);
+
+        //探索旅伴
+
     }
 
+    private void initEvent() {
+        btn_filter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),
+                        "将进入筛选页面",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        btn_member_cnt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),
+                        "将进入人数页面",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        btn_trip_date.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),
+                        "将进入日期页面",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
 }

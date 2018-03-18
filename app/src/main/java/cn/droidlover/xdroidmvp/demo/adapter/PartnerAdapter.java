@@ -1,21 +1,17 @@
 package cn.droidlover.xdroidmvp.demo.adapter;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.makeramen.roundedimageview.RoundedImageView;
 
 import butterknife.BindView;
 import cn.droidlover.xdroidmvp.base.SimpleRecAdapter;
 import cn.droidlover.xdroidmvp.demo.R;
 import cn.droidlover.xdroidmvp.demo.model.GankResults;
-import cn.droidlover.xdroidmvp.demo.ui.CustomShadowView;
-import cn.droidlover.xdroidmvp.imageloader.ILFactory;
 import cn.droidlover.xdroidmvp.kit.KnifeKit;
 
 /**
@@ -50,7 +46,7 @@ public class PartnerAdapter extends SimpleRecAdapter<GankResults.Item, PartnerAd
         //补充画阴影代码
 
         holder.llPartner.setVisibility(View.VISIBLE);
-        holder.cvPartnerImg.setVisibility(View.VISIBLE);
+        holder.ivPartnerImg.setVisibility(View.VISIBLE);
 
         //以下需要获取数据
         holder.tvPartnerName.setText("Susan");
@@ -72,8 +68,8 @@ public class PartnerAdapter extends SimpleRecAdapter<GankResults.Item, PartnerAd
     public static class ViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.ll_partner)
         LinearLayout llPartner;
-        @BindView(R.id.cv_partner_image)
-        CustomShadowView cvPartnerImg;
+        @BindView(R.id.iv_partner_img)
+        RoundedImageView ivPartnerImg;
         @BindView(R.id.tv_partner_name)
         TextView tvPartnerName;
 
