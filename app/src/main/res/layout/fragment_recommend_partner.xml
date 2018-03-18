@@ -35,7 +35,7 @@
 
     <include
         android:id="@+id/partner1"
-        android:layout="@layout/adapter_partner"
+        layout="@layout/adapter_partner"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="30dp"
@@ -44,7 +44,7 @@
 
     <include
         android:id="@+id/partner2"
-        android:layout="@layout/adapter_partner"
+        layout="@layout/adapter_partner"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="30dp"

@@ -5,15 +5,15 @@
     android:orientation="vertical">
 
     <include
-        android:id="@+id/fragment_search"
-        layout="@layout/fragment_search" />
+        layout="@layout/fragment_search"
+        android:id="@+id/fragment_search" />
 
     <include
-        android:id="@+id/fragment_recommend_partner"
-        layout="@layout/fragment_recommend_partner" />
+        layout="@layout/fragment_recommend_partner"
+        android:id="@+id/fragment_recommend_partner"/>
 
     <include
-        android:id="@+id/fragment_recommend_trip"
-        layout="@layout/fragment_recommend_trip" />
+        layout="@layout/fragment_recommend_trip"
+        android:id="@+id/fragment_recommend_trip"/>
 
 </LinearLayout>

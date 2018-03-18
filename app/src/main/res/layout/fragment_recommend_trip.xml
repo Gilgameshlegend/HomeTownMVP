@@ -35,7 +35,7 @@
 
     <include
         android:id="@+id/trip1"
-        android:layout="@layout/adapter_trip"
+        layout="@layout/adapter_trip"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="30dp"
@@ -44,7 +44,7 @@
 
     <include
         android:id="@+id/trip2"
-        android:layout="@layout/adapter_trip"
+        layout="@layout/adapter_trip"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="30dp"
