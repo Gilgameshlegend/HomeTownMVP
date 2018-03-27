@@ -80,12 +80,12 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
-        "source": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_check_material.xml"
-    },
-    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
         "source": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_check_material.xml"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/mvp/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",

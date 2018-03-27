@@ -1,30 +1,19 @@
 package cn.droidlover.xdroidmvp.demo.ui;
 
 import android.os.Bundle;
-//import android.support.design.widget.TabLayout;
-//import android.support.v4.app.Fragment;
-//import android.support.v4.view.ViewPager;
-//import android.support.v7.widget.Toolbar;
-//import android.view.MenuItem;
-//git
-import java.util.ArrayList;
-import java.util.List;
-//
-//import butterknife.BindView;
-//import cn.droidlover.xdroidmvp.base.XFragmentAdapter;
 import cn.droidlover.xdroidmvp.demo.R;
 import cn.droidlover.xdroidmvp.mvp.XActivity;
-import cn.droidlover.xdroidmvp.mvp.XFragment;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
-import android.support.v4.app.Fragment;
+
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.widget.TextView;
+import android.widget.FrameLayout;
+
 /**
- * Created by wanglei on 2016/12/22.
+ * Created by yarong on 2018/03/27.
  */
 
 public class MainActivity extends XActivity {
@@ -39,8 +28,19 @@ public class MainActivity extends XActivity {
 //    String[] titles = {"首页", "干货", "妹子"};
 //
 //    XFragmentAdapter adapter;
-    private FindFragment mfragment_find;
+
+    //导航栏
     private BottomNavigationBar bottom_bar;
+    //Fragment类
+    private FindFragment mfragment_find;
+    private MsgboxFragment mfragment_msgbox;
+    private RoomFragment mfragment_room;
+    private MineFragment mfragment_mine;
+    //Fragment管理
+    private FragmentManager fm;
+    //fragmet嵌入在这里
+    private FrameLayout main_frameLayout;
+    //事务
     private FragmentTransaction transaction;
 
 
@@ -87,13 +87,13 @@ public class MainActivity extends XActivity {
                         setDefaultFragment();
                         break;
                     case 1:
-
+                        setRoomFragment();
                         break;
                     case 2:
-
+                        setMsgBoxFragment();
                         break;
                     case 3:
-
+                        setMineFragment();
                         break;
                 }
             }
@@ -129,11 +129,70 @@ public class MainActivity extends XActivity {
     }
 
     private void setDefaultFragment() {
-        FragmentManager fm = getSupportFragmentManager();
+        fm = getSupportFragmentManager();
         transaction = fm.beginTransaction();
-        mfragment_find = FindFragment.newInstance();
-        transaction.add(R.id.id_fragment_find, mfragment_find);
+        hideFragments(transaction);
+        if (mfragment_find == null) {
+            mfragment_find = FindFragment.newInstance();
+            transaction.add(R.id.main_content, mfragment_find);
+        } else {
+            transaction.show(mfragment_find);
+        }
         transaction.commit();
     }
 
+    private void setMsgBoxFragment() {
+        fm = getSupportFragmentManager();
+        transaction = fm.beginTransaction();
+        hideFragments(transaction);
+        if(mfragment_msgbox == null) {
+            mfragment_msgbox = MsgboxFragment.newInstance();
+            transaction.add(R.id.main_content, mfragment_msgbox);
+        }
+        else {
+            transaction.show(mfragment_msgbox);
+        }
+        transaction.commit();
+    }
+
+    private void setRoomFragment() {
+        fm = getSupportFragmentManager();
+        transaction = fm.beginTransaction();
+        hideFragments(transaction);
+        if(mfragment_room == null) {
+            mfragment_room = RoomFragment.newInstance();
+            transaction.add(R.id.main_content, mfragment_room);
+        }
+        else {
+            transaction.show(mfragment_room);
+        }
+        transaction.commit();
+    }
+
+    private void setMineFragment() {
+        fm = getSupportFragmentManager();
+        transaction = fm.beginTransaction();
+        hideFragments(transaction);
+        if(mfragment_mine == null) {
+            mfragment_mine = MineFragment.newInstance();
+            transaction.add(R.id.main_content, mfragment_mine);
+        }
+        else {
+            transaction.show(mfragment_mine);
+        }
+        transaction.commit();
+    }
+
+    private void hideFragments(FragmentTransaction transaction) {
+        if (mfragment_find != null) {
+            transaction.hide(mfragment_find);
+        }
+        if (mfragment_msgbox != null) {
+            transaction.hide(mfragment_msgbox);
+        }
+        if (mfragment_room != null)
+            transaction.hide(mfragment_room);
+        if (mfragment_mine != null)
+            transaction.hide(mfragment_mine);
+    }
 }

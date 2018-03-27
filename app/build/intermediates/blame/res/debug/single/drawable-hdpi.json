@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_like.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_like.png"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_arrow_white_24dp.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_arrow_white_24dp.png"
     },
@@ -8,16 +12,28 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_box.png"
     },
     {
-        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_keyboard_arrow_right_green_24dp.png",
-        "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_keyboard_arrow_right_green_24dp.png"
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_feedback.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_feedback.png"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_room.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_room.png"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_keyboard_arrow_right_green_24dp.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_keyboard_arrow_right_green_24dp.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_setting.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_setting.png"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_save_white_24dp.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_save_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_partner.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_partner.png"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_find.png",
@@ -26,6 +42,10 @@
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mine.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_mine.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_trip.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-hdpi/ic_trip.png"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_location.png",

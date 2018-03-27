@@ -4,6 +4,10 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_person_black_24dp.png"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_setting.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_setting.png"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_find.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_find.png"
     },
@@ -28,8 +32,20 @@
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_keyboard_arrow_right_green_24dp.png"
     },
     {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_like.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_like.png"
+    },
+    {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_arrow_white_24dp.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_arrow_white_24dp.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_partner.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_partner.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_feedback.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_feedback.png"
     },
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mine.png",
@@ -38,5 +54,9 @@
     {
         "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_room.png",
         "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_room.png"
+    },
+    {
+        "merged": "/Users/yarong/Desktop/XDroidMvp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_trip.png",
+        "source": "/Users/yarong/Desktop/XDroidMvp/app/src/main/res/drawable-xhdpi/ic_trip.png"
     }
 ]

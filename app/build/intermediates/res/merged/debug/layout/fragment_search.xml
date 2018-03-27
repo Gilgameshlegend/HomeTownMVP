@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="150dp" >
+    android:layout_height="150dp"
+    >
 
     <TextView
         android:id="@+id/tv_location"
@@ -10,9 +11,9 @@
         android:layout_alignTop="@+id/search_content"
         android:layout_marginLeft="30dp"
         android:layout_marginStart="40dp"
-        android:elevation="10dp"
+        android:elevation="5dp"
         android:ems="5"
-        android:background="@drawable/shape_white_rectangle"
+        android:background="@drawable/shape_green_edge_rectangle"
 
         android:drawableLeft="@drawable/ic_location"
         android:text="上海"
@@ -26,9 +27,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="30dp"
         android:layout_toRightOf="@+id/tv_location"
-        android:elevation="10dp"
+        android:elevation="5dp"
         android:ems="20"
-        android:background="@drawable/shape_white_rectangle"
+        android:background="@drawable/shape_green_edge_rectangle"
         android:drawableLeft="@drawable/ic_find"
         android:inputType="text"
         android:textSize="12sp" >
@@ -45,7 +46,7 @@
         android:background="@drawable/shape_btn"
         android:text="@string/search_filter"
         android:textSize="11sp"
-        android:textColor="@color/text_secondary"
+        android:textColor="@color/navigationItem_inActive"
         />
     <Button
         android:id="@+id/btn_trip_date"
@@ -58,7 +59,7 @@
         android:background="@drawable/shape_btn"
         android:text="@string/search_trip_date"
         android:textSize="11sp"
-        android:textColor="@color/text_secondary"
+        android:textColor="@color/navigationItem_inActive"
         />
     <Button
         android:id="@+id/btn_member_cnt"
@@ -71,7 +72,7 @@
         android:background="@drawable/shape_btn"
         android:text="@string/search_member_cnt"
         android:textSize="11sp"
-        android:textColor="@color/text_secondary"
+        android:textColor="@color/navigationItem_inActive"
         />
 
 </RelativeLayout>

@@ -13,4 +13,10 @@
     <string name="recmd_partner_en">Found My Partner</string>
     <string name="recmd_trip_cn">探索旅程</string>
     <string name="recmd_trip_en">Found My Trip</string>
+
+    <string name="room_dest">目的地/酒店</string>
+    <string name="room_checkin">入住</string>
+    <string name="room_checkout">离店</string>
+    <string name="room_per">每间</string>
+    <string name="room_find">查找房间</string>
 </resources>
