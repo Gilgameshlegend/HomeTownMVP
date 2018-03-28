@@ -19,4 +19,6 @@
     <string name="room_checkout">离店</string>
     <string name="room_per">每间</string>
     <string name="room_find">查找房间</string>
+
+    <string name="msg_send">发送</string>
 </resources>

@@ -10,7 +10,9 @@ import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 
 /**
  * Created by yarong on 2018/03/27.
@@ -36,12 +38,15 @@ public class MainActivity extends XActivity {
     private MsgboxFragment mfragment_msgbox;
     private RoomFragment mfragment_room;
     private MineFragment mfragment_mine;
+    private MsgChatFragment mfragment_msgdetail;
     //Fragment管理
     private FragmentManager fm;
-    //fragmet嵌入在这里
-    private FrameLayout main_frameLayout;
+//    //fragmet嵌入在这里
+//    private FrameLayout main_frameLayout;
     //事务
     private FragmentTransaction transaction;
+    //MsgboxFragment中的返回按钮
+    private ImageButton ib_backToBox;
 
 
     @Override
@@ -77,6 +82,20 @@ public class MainActivity extends XActivity {
         return null;
     }
 
+    private void initView() {
+        //初始化导航栏
+        bottom_bar = (BottomNavigationBar) findViewById(R.id.bottom_bar);
+        bottom_bar.setMode(BottomNavigationBar.MODE_FIXED);
+        bottom_bar.addItem(new BottomNavigationItem(R.drawable.ic_find, getString(R.string.find)))
+                .addItem(new BottomNavigationItem(R.drawable.ic_room, getString(R.string.room)))
+                .addItem(new BottomNavigationItem(R.drawable.ic_box, getString(R.string.box)))
+                .addItem(new BottomNavigationItem(R.drawable.ic_mine, getString(R.string.mine)))
+                .setActiveColor(R.color.navigationItem_active)
+                .setInActiveColor(R.color.navigationItem_inActive)
+                .initialise();
+        //默认显示发现页面
+        setDefaultFragment();
+    }
 
     private void initEvent() {
         bottom_bar.setTabSelectedListener(new BottomNavigationBar.OnTabSelectedListener() {
@@ -97,36 +116,15 @@ public class MainActivity extends XActivity {
                         break;
                 }
             }
-
             @Override
-            public void onTabUnselected(int position) {
-
-            }
-
+            public void onTabUnselected(int position) {}
             @Override
-            public void onTabReselected(int position) {
-
-            }
+            public void onTabReselected(int position) {}
         });
-    }
-
-    private void initView() {
-        //初始化导航栏
-        bottom_bar = (BottomNavigationBar) findViewById(R.id.bottom_bar);
-        bottom_bar.setMode(BottomNavigationBar.MODE_FIXED);
-        bottom_bar.addItem(new BottomNavigationItem(R.drawable.ic_find, getString(R.string.find)))
-                .addItem(new BottomNavigationItem(R.drawable.ic_room, getString(R.string.room)))
-                .addItem(new BottomNavigationItem(R.drawable.ic_box, getString(R.string.box)))
-                .addItem(new BottomNavigationItem(R.drawable.ic_mine, getString(R.string.mine)))
-                .setActiveColor(R.color.navigationItem_active)
-                .setInActiveColor(R.color.navigationItem_inActive)
-                .initialise();
-        //默认显示发现页面
-        setDefaultFragment();
-
-
 
     }
+
+
 
     private void setDefaultFragment() {
         fm = getSupportFragmentManager();
@@ -183,6 +181,20 @@ public class MainActivity extends XActivity {
         transaction.commit();
     }
 
+    private void setMsgChatFragment() {
+        fm = getSupportFragmentManager();
+        transaction = fm.beginTransaction();
+        hideFragments(transaction);
+        if(mfragment_msgdetail == null) {
+            mfragment_msgdetail = MsgChatFragment.newInstance();
+            transaction.add(R.id.main_content, mfragment_msgdetail);
+            }
+        else {
+            transaction.show(mfragment_msgdetail);
+        }
+        transaction.commit();
+    }
+
     private void hideFragments(FragmentTransaction transaction) {
         if (mfragment_find != null) {
             transaction.hide(mfragment_find);
@@ -194,5 +206,18 @@ public class MainActivity extends XActivity {
             transaction.hide(mfragment_room);
         if (mfragment_mine != null)
             transaction.hide(mfragment_mine);
+        if (mfragment_msgdetail != null)
+            transaction.hide(mfragment_msgdetail);
+    }
+
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.ll_msg_item:
+                setMsgChatFragment();
+                break;
+            case R.id.ib_backToBox:
+                setMsgBoxFragment();
+                break;
+        }
     }
 }

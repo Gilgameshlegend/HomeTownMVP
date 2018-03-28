@@ -9,9 +9,14 @@
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/ll_msg_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:onClick="onClick">
+
         <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/iv_msger_img"
             android:layout_width="80dp"
